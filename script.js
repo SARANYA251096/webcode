@@ -16,12 +16,13 @@ async function foo(){
               <div class="card border-light mb-3" style="max-width: 18rem; height:">
               <div class="card-header"style="text-align:center; background-color:lightblue;background-color:black; color:white;"><b>Brand:"${res1[i].brand}"</b></div><br>
               <img src="${res1[i].image_link}" class="card-img-top" style="height:100px; width:200px; align-items:center; margin-left:40px "><br>
+              <div class="crd" style="background-color:blanchedalmond;">
                 <h6 class="card-title" style="font-size:15px">Name:"${res1[i].name}"</h6>
                 <h6 class="card-title" style="font-size:15px">Price:"${res1[i].price}"</h6>
                 <h6 class="card-title" style="font-size:15px">Product Link:"${res1[i].product_link}"</h6>
                 <h6 class="card-title" style="font-size:15px">Description:"${res1[i].description}"</h6>
 
-                
+                </div>
               </div>
             </div>
          </div>`;
