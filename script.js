@@ -11,7 +11,7 @@ async function foo(){
         var res=await fetch("https://makeup-api.herokuapp.com/api/v1/products.json");
         let res1=await res.json();
         console.log(res1);
-        for(var i=0;i<10;i++){
+        for(var i=0;i<50;i++){
               row.innerHTML+=`<div class=col-md-4>
               <div class="card border-light mb-3" style="max-width: 18rem; height:">
               <div class="card-header"style="text-align:center; background-color:lightblue;"><b>Brand:"${res1[i].brand}"</b></div>
